@@ -46,15 +46,15 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       
-      <div className="relative-container relative" style={{top: '-40px'}}>
+      <div className="relative-container relative mt-8" style={{top: '-40px'}}>
         <div className="absolute top-0 text-center w-full px-4 py-2 bg-gray-800 text-white">
           <h2 className="text-xl font-bold">Important Notice</h2>
           <p className="text-sm">Our project is, and will always be, unrelated to any cryptocurrency. Please beware of scams.</p>
         </div>
       </div>
-      
-      <div className="relative-container relative" style={{top: '-40px'}}>
-        <ImageCarousel images={leftImages} direction="left" /> 
+
+      <div className="relative-container relative mt-12" style={{top: '-40px'}}>
+        <ImageCarousel images={leftImages} direction="left" />
         <ImageCarousel images={rightImages} direction="right" />
         <TextTiltAnimation />
       </div>
