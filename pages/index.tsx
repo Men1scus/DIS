@@ -53,11 +53,11 @@ const Home: NextPage = () => {
         </div>
       </div>
       
-{/*       <div className="relative-container relative" style={{top: '-40px'}}>
+      <div className="relative-container relative" style={{top: '-40px'}}>
         <ImageCarousel images={leftImages} direction="left" /> 
         <ImageCarousel images={rightImages} direction="right" />
         <TextTiltAnimation />
-      </div> */}
+      </div>
 
       <div id="support" ref={supportRef} className="" style={{top: '100px'}}>
         <Support />
