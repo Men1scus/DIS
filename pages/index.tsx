@@ -46,7 +46,7 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       
-        <div className="relative mt-8 min-h-screen w-full">
+        <div className="relative mt-8 w-full">
           <div className="flex items-center justify-center text-center w-full px-4 py-2 bg-gray-800 text-white">
             <h2 className="text-xl font-bold mr-4 whitespace-nowrap">Important Notice</h2>
             <p className="text-sm whitespace-nowrap">Our project is, and will always be, unrelated to any cryptocurrency. Please beware of scams.</p>
