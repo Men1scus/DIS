@@ -51,7 +51,7 @@ const Home: NextPage = () => {
           <p className="text-sm whitespace-nowrap">Our project is, and will always be, unrelated to any cryptocurrency. Please beware of scams.</p>
         </div>
 
-      <div className="relative-container relative mt-12" style={{top: '-40px'}}>
+      <div className="relative-container relative mt-10" style={{top: '-40px'}}>
         <ImageCarousel images={leftImages} direction="left" />
         <ImageCarousel images={rightImages} direction="right" />
         <TextTiltAnimation />
