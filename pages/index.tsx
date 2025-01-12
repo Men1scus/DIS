@@ -48,8 +48,8 @@ const Home: NextPage = () => {
       
       <div className="relative mt-8" style={{top: '-40px'}}>
         <div className="absolute top-0 flex items-center justify-center text-center w-full px-4 py-2 bg-gray-800 text-white">
-          <h2 className="text-xl font-bold mr-4">Important Notice</h2>
-          <p className="text-sm">Our project is, and will always be, unrelated to any cryptocurrency. Please beware of scams.</p>
+          <h2 className="text-xl font-bold mr-4 whitespace-nowrap">Important Notice</h2>
+          <p className="text-sm whitespace-nowrap">Our project is, and will always be, unrelated to any cryptocurrency. Please beware of scams.</p>
         </div>
       </div>
 
