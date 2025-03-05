@@ -57,7 +57,7 @@ const TextTiltAnimation: React.FC = () => {
       <div className={styles.text}>{splitText("This is BiRefNet")}</div>
       <div className={styles.text}>{splitText("For high-precision image segmentation")}</div>
       <div className={styles.text}>{splitText("Applicable to multiple scenarios")}</div>
-      <div className={styles.text}>{splitText("education, medical, geographical...")}</div>
+      <div className={styles.text}>{splitText("portraits, industrial, agricultural...")}</div>
     </div>
   );
 };
