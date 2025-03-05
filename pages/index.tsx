@@ -45,14 +45,14 @@ const Home: NextPage = () => {
         <title>General Scenario Intelligent High-precision Parsing</title>
       </Head>
       <Header />
-      <div className="w-full mt-8">
+      <div className="w-full -mt-4">
         <div className="flex items-center justify-center text-center w-full px-4 py-2 bg-gray-800 text-white mb-0">
           <h2 className="text-xl font-bold mr-4 whitespace-nowrap">Important Notice</h2>
           <p className="text-sm whitespace-nowrap">Our project is, and will always be, unrelated to any cryptocurrency. Please beware of scams.</p>
         </div>
       </div>
       
-      <div className="relative-container flex flex-col gap-0">
+      <div className="relative-container" style={{ marginTop: '-8px' }}>
         <ImageCarousel images={leftImages} direction="left" />
         <ImageCarousel images={rightImages} direction="right" />
         <TextTiltAnimation />
