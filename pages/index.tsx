@@ -52,7 +52,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       
-      <div className="relative-container" style={{ marginTop: '-8px' }}>
+      <div className="relative-container" style={{ marginTop: '-40px' }}>
         <ImageCarousel images={leftImages} direction="left" />
         <ImageCarousel images={rightImages} direction="right" />
         <TextTiltAnimation />
