@@ -23,7 +23,7 @@ export default function Business() {
               <p className="text-black text-tiny">Fai.ai API is now live.</p>
               <p className="text-black text-tiny">Experience our service now.</p>
             </div>
-            <a href="https://fal.ai/models/fal-ai/birefnet/playground" target="_blank" rel="noopener noreferrer">
+            <a href="https://fal.ai/models/fal-ai/birefnet/v2" target="_blank" rel="noopener noreferrer">
               <Button className="text-tiny px-4 py-2" color="primary" radius="full" size="sm">
                 Try Now
               </Button>
