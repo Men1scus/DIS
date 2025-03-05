@@ -14,7 +14,7 @@ const CallToActionL = ({
 			{content}
 		  </p>
 		  <a
-			href="#"
+			href="https://fal.ai/models/fal-ai/birefnet/v2"
 			className="inline-block mt-6 px-6 py-3 bg-black text-white text-sm font-medium rounded-lg hover:bg-gray-700 transition duration-300"
 		  >
 			{buttonText}
